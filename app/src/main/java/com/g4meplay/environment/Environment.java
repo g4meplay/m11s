@@ -18,4 +18,8 @@ public class Environment {
     public static String getToken() {
         return get("TOKEN");
     }
+
+    public static String getPrefix() {
+        return get("PREFIX");
+    }
 }
