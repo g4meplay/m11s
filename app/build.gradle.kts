@@ -9,13 +9,11 @@ repositories {
 dependencies {
     // Use JUnit test framework.
     testImplementation(libs.junit)
-    
-    // Discord API
-    implementation("com.discord4j:discord4j-core:3.2.8")
-    
-    // Dotenv
-    implementation("io.github.cdimascio:dotenv-java:3.2.0")
 
+    implementation("com.discord4j:discord4j-core:3.2.8")
+    implementation("io.github.cdimascio:dotenv-java:3.2.0")
+    implementation("org.reflections:reflections:0.10.2")
+    
     // This dependency is used by the application.
     implementation(libs.guava)
 }
