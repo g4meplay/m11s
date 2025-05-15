@@ -41,10 +41,7 @@ public class CommandManagerFactory {
 
             String commandName = extractCommandName(content, prefix);
             Command command = commands.get(commandName);
-
-            if (command != null) {
-                command.execute(event);
-            }
+            if (command != null) command.execute(event);
         });
     }
 

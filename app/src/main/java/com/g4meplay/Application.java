@@ -22,6 +22,7 @@ public class Application {
                         .block()
         ));
 
+        // Register commands
         CommandManagerFactory.registerCommands(client, PREFIX);
 
         // Keep the bot running until it is manually disconnected
